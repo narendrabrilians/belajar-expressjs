@@ -10,4 +10,8 @@ app.get("/products", (req, res) => {
   res.send("Hello Products");
 });
 
+app.get("/user", (req, res) => {
+  res.send("Hello User");
+});
+
 app.listen(3000);
