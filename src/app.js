@@ -14,4 +14,8 @@ app.get("/user", (req, res) => {
   res.send("Hello User");
 });
 
+app.get("/contact", (req, res) => {
+  res.send("Contant");
+});
+
 app.listen(3000);
